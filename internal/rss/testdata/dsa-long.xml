@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel rdf:about="https://www.debian.org/security/dsa.rdf">
+<title>Debian Security</title>
+<link>https://www.debian.org/security/dsa.rdf</link>
+<dc:date>2026-09-20T03:24:14Z</dc:date>
+<description>Debian Security Advisories</description>
+<items>
+<rdf:Seq>
+<rdf:li rdf:resource="https://lists.debian.org/debian-security-announce/2026/msg00420.html" />
+<rdf:li rdf:resource="https://lists.debian.org/debian-security-announce/2026/msg00419.html" />
+<rdf:li rdf:resource="https://lists.debian.org/debian-security-announce/2026/msg00418.html" />
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="https://lists.debian.org/debian-security-announce/2026/msg00420.html">
+<title>DSA-6508-1 chromium - security update</title>
+<link>https://lists.debian.org/debian-security-announce/2026/msg00420.html</link>
+<dc:date>2026-09-19</dc:date>
+<description>Security issues were discovered in Chromium which could result in the execution of arbitrary code, denial of service, or information disclosure.
+
+&lt;a href=&quot;https://security-tracker.debian.org/tracker/DSA-6508-1&quot;&gt;https://security-tracker.debian.org/tracker/DSA-6508-1&lt;/a&gt;</description>
+</item>
+<item rdf:about="https://lists.debian.org/debian-security-announce/2026/msg00419.html">
+<title>DSA-6507-1 unbound - security update</title>
+<link>https://lists.debian.org/debian-security-announce/2026/msg00419.html</link>
+<dc:date>2026-09-19</dc:date>
+<description>Multiple security vulnerabilities were discovered in Unbound, a validating, recursive, caching DNS resolver, which could result in denial of service, cache poisoning, DNS cookie bypass or potentially the execution of arbitrary code.
+
+&lt;a href=&quot;https://security-tracker.debian.org/tracker/DSA-6507-1&quot;&gt;https://security-tracker.debian.org/tracker/DSA-6507-1&lt;/a&gt;</description>
+</item>
+<item rdf:about="https://lists.debian.org/debian-security-announce/2026/msg00418.html">
+<title>DSA-6506-1 chromium - security update</title>
+<link>https://lists.debian.org/debian-security-announce/2026/msg00418.html</link>
+<dc:date>2026-09-17</dc:date>
+<description>Security issues were discovered in Chromium which could result in the execution of arbitrary code, denial of service, or information disclosure.
+
+&lt;a href=&quot;https://security-tracker.debian.org/tracker/DSA-6506-1&quot;&gt;https://security-tracker.debian.org/tracker/DSA-6506-1&lt;/a&gt;</description>
+</item>
+</rdf:RDF>
