@@ -44,7 +44,13 @@ func run(webhookURL, stateFile, rssFeedURL string) error {
 		}
 	}
 
-	s.LastDSANumber = newItems[0].DSANumber
+	maxDSA := 0
+	for _, item := range newItems {
+		if item.DSANumber > maxDSA {
+			maxDSA = item.DSANumber
+		}
+	}
+	s.LastDSANumber = maxDSA
 	s.LastChecked = time.Now().UTC().Format(time.RFC3339)
 
 	if err := saveState(stateFile, s); err != nil {
